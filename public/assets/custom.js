@@ -5,7 +5,7 @@ $(document).ready(function(){
     // data: data,
     // dataType: dataType
     success: function(data, text, xhr){
-      if(text.response == "true"){
+      if(text.response){
         $($('.connected').get(0)).html('<span class="text-success">Connected!</span>');
       } else {
         $($('.connected').get(0)).html('<span class="text-error">Not Connected</span>');
