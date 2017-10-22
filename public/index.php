@@ -34,7 +34,7 @@
     </div>
 
     <div class = "jumbotron">
-        <img style = "height:100px; width:100px;" src="assets/images/desktop.png"/>
+        <img style = "height:100px; width:100px; border: solid black 1px" src="assets/images/desktop.png"/>
     </div>
 
     <div style = "background-color: #BBE1E5;" class="jumbotron">
