@@ -35,9 +35,9 @@
 
     <div class = "jumbotron">
         <div style="border:solid black 1px;">
-            <img style = "height:150px; width:150px; background-color: white; border-radius: 50%; margin-left: 20%;" src="assets/images/desktop.png"/>
-            <img style = "height:150px; width:150px; background-color: white; border-radius: 50%; margin-left: 20%;" src="assets/images/router.png"/>
-            <img style = "height:150px; width:150px; background-color: white; border-radius: 50%; margin-left: 20%;" src="assets/images/server.png"/>
+            <img style = "padding: 30px; height:100px; width:100px; background-color: white; border-radius: 50%; margin-left: 20%;" src="assets/images/desktop.png"/>
+            <img style = "padding: 30px; height:100px; width:100px; background-color: white; border-radius: 50%; margin-left: 20%;" src="assets/images/router.png"/>
+            <img style = "padding: 30px; height:100px; width:100px; background-color: white; border-radius: 50%; margin-left: 20%;" src="assets/images/server.png"/>
         </div>
     </div>
 
