@@ -63,7 +63,7 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="assets/jquery/jquery.min.js"></script>
-    <script src="assets/popper/popper.js"></script>
+    <script src="assets/popper/popper.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/custom.js"></script>
 </body>
