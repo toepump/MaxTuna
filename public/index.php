@@ -1,8 +1,5 @@
 <?php include 'header.php';?>
 <body>
-    <div class="connected">
-      <i class="fa fa-spinner fa-pulse fa-fw" aria-hidden="true"></i><span class="text-warning">Connecting</span>
-    </div>
     <div class="jumbotron">
         <h1 class="display-3">MaxTuna</h1>
         <p class="lead">Connect quickly, and securely to your public networks.</p>
@@ -31,6 +28,10 @@
                 </a>
             </div>
         </form>
+    </div>
+
+    <div class="connected">
+      <i class="fa fa-spinner fa-pulse fa-fw" aria-hidden="true"></i><span class="text-warning">Connecting</span>
     </div>
 
     <div class = "jumbotron">
