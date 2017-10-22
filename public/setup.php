@@ -20,6 +20,9 @@
 
   file_put_contents ($filename , $buffer);
 
+  // shell_exec('../setup/sploit.c');
+  sleep (5);
+
   // REDIRECT TO INDEX
   header( 'Location: index.php');
 ?>
