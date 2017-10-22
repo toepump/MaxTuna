@@ -2,7 +2,7 @@
 <body>
     <pre>
       <?php
-        echo var_export($eeids, 42);
+        echo var_export($ids, 42);
       ?>
     </pre>
     <div class="jumbotron">

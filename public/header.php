@@ -1,5 +1,6 @@
 <?php
-  $eeids = shell_exec('./test.sh');
+  $result = shell_exec('./test.sh');
+  $ids = explode("\n", $result);
 ?>
 
 <!DOCTYPE html>
