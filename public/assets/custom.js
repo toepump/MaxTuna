@@ -5,7 +5,6 @@ $(document).ready(function(){
     // data: data,
     // dataType: dataType
     success: function(data, text, xhr){
-      console.log(text);
       debugger;
     },
     error: function(xhr, text, error){

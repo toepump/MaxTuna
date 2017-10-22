@@ -1,10 +1,8 @@
 <?php include 'header.php';?>
 <body>
-    <pre>
-        <?php
-        echo var_export($ids, 42);
-        ?>
-    </pre>
+    <div class="connected">
+      <span class="text-error">Not Connected</span>
+    </div>
     <div class="jumbotron">
         <h1 class="display-3">MaxTuna</h1>
         <p class="lead">Connect quickly, and securely to your public networks.</p>
