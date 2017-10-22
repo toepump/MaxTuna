@@ -1,7 +1,7 @@
 <?php include 'header.php';?>
 <body>
     <div class="connected">
-      <span class="text-warning">Connecting</span>
+      <span class="text-warning"><i class="fa fa-spinner" aria-hidden="true"></i>Connecting</span>
     </div>
     <div class="jumbotron">
         <h1 class="display-3">MaxTuna</h1>
