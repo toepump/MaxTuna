@@ -3,7 +3,7 @@
 
     <!-- Header row -->
     <section class="row justify-content-center top">
-      <div class="col-12">
+      <div class="col-6">
 
         <!-- Title info -->
         <h1>Connect Buddha</h1>
