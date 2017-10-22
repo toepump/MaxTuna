@@ -2,7 +2,7 @@
   <body class="container-fluid make-full">
 
     <!-- Header row -->
-    <section class="row justify-content-center">
+    <section class="row justify-content-center top">
       <div class="col-12">
 
         <!-- Title info -->
@@ -22,8 +22,8 @@
     <!-- END Header row -->
 
     <!-- Fullpage row section -->
-    <section class="row justify-content-center">
-      <div class="col-8">
+    <section class="row justify-content-center bottom">
+      <div class="col-6">
 
         <!-- BEGIN form area -->
         <p>Available Networks: </p>
@@ -48,7 +48,7 @@
           <div class="form-group">
             <button type="submit" class="btn btn-primary btn-lg" role="button">
               Connect
-            </a>
+            </button>
           </div>
         </form>
         <!-- END form -->

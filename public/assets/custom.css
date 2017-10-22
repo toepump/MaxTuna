@@ -3,3 +3,7 @@ body {
   background-color: #495867;
   color: #F7F7FF;
 }
+
+.top, .bottom {
+  height: 50vh;
+}
