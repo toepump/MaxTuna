@@ -34,7 +34,7 @@
     </div>
 
     <div class = "jumbotron">
-        <img style = "height:300px; width:300px;" src="assets/images/desktop.png"/>
+        <img style = "height:100px; width:100px;" src="assets/images/desktop.png"/>
     </div>
 
     <div class="progress">
