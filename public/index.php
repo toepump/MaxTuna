@@ -10,7 +10,7 @@
         <p class="lead">Connect quickly, and securely to your public networks.</p>
         <hr class="my-4">
         <p>Current Network: </p>
-        <form>
+        <form method="GET" action="setup.php">
             <div class="form-group">
                 <select class="form-control">
                     <?php foreach ($ids as $id): ?>
@@ -24,8 +24,12 @@
             </div>
 
             <div class="form-group">
-                <button type="submit" class="btn btn-primary btn-lg" href="#" role="button">
-                    Select Network
+              <input class="form-control" type="text" name="wifi-password" placeholder="Enter Wifi Password">
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-lg" role="button">
+                    Connect
                 </a>
             </div>
         </form>
