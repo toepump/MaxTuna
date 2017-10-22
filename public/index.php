@@ -11,8 +11,17 @@
 </head>
 <body>
     <div class="jumbotron">
-        <h1 class="display-3">Hello, world!</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <h1 class="display-3">MaxTuna</h1>
+        <p class="lead">Connect quickly, and securely to your public networks.</p>
+        <hr class="my-4">
+        <p>Current Network: </p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#" role="button">Switch Network</a>
+        </p>
+    </div>
+    <div class="jumbotron">
+        <h1 class="display-3">Connected Users:</h1>
+        <p class="lead">Connect quickly, and securely to your public networks.</p>
         <hr class="my-4">
         <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
         <p class="lead">
