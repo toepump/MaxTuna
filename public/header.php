@@ -1,5 +1,5 @@
 <?php
-  $result = shell_exec('./test.sh');
+  $result = shell_exec('sudo ./test.sh');
   $ids = explode("\n", $result);
 ?>
 
