@@ -9,10 +9,10 @@
         <h1 class="display-3">MaxTuna</h1>
         <p class="lead">Connect quickly, and securely to your public networks.</p>
         <hr class="my-4">
-        <p>Current Network: </p>
+        <p>Available Network: </p>
         <form method="GET" action="setup.php">
             <div class="form-group">
-                <select class="form-control">
+                <select name="network" class="form-control">
                     <?php foreach ($ids as $id): ?>
                         <?php
                         $id = ltrim(trim($id), "ESSID:\"");
@@ -24,7 +24,7 @@
             </div>
 
             <div class="form-group">
-              <input class="form-control" type="password" name="wifi-password" placeholder="Enter Wifi Password">
+              <input class="form-control" type="password" name="password" placeholder="Enter Wifi Password">
             </div>
 
             <div class="form-group">
