@@ -44,7 +44,7 @@
             <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Learn more
             </button>
-            <select class="dropdown-menu">
+
                 <?php foreach ($ids as $id): ?>
                     <?php
                     $id = ltrim(trim($id), "ESSID:\"");
@@ -52,7 +52,7 @@
                     ?>
                     <option class="dropdown-item" value="<?php echo $id; ?>"><?php echo $id; ?></option>
                 <?php endforeach; ?>
-            </select>
+            
         </p>
     </div>
 
