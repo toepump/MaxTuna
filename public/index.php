@@ -6,6 +6,12 @@
       <hr class="my-4">
       <section class="row justify-content-center">
 
+        <!-- Connect icon -->
+        <div class="connected">
+          <i class="fa fa-spinner fa-pulse fa-fw" aria-hidden="true"></i><span class="text-warning">Connecting</span>
+        </div>
+        <!-- END connect icon -->
+        
         <div class="col-8">
 
           <!-- BEGIN form area -->
