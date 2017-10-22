@@ -1,9 +1,9 @@
 <?php include 'header.php';?>
 <body>
     <pre>
-      <?php
+        <?php
         echo var_export($ids, 42);
-      ?>
+        ?>
     </pre>
     <div class="jumbotron">
         <h1 class="display-3">MaxTuna</h1>
@@ -11,25 +11,30 @@
         <hr class="my-4">
         <p>Current Network: </p>
         <form>
-          <div class="form-group">
-            <select class="form-control">
-              <?php foreach ($ids as $id): ?>
-                <?php
-                  $id = ltrim(trim($id), "ESSID:\"");
-                  $id = rtrim($id, "\"");
-                ?>
-                <option value="<?php echo $id; ?>"><?php echo $id; ?></option>
-              <?php endforeach; ?>
-            </select>
-          </div>
+            <div class="form-group">
+                <select class="form-control">
+                    <?php foreach ($ids as $id): ?>
+                        <?php
+                        $id = ltrim(trim($id), "ESSID:\"");
+                        $id = rtrim($id, "\"");
+                        ?>
+                        <option value="<?php echo $id; ?>"><?php echo $id; ?></option>
+                    <?php endforeach; ?>
+                </select>
+            </div>
 
-          <div class="form-group">
-            <button type="submit" class="btn btn-primary btn-lg" href="#" role="button">
-              Select Network
-            </a>
-          </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-lg" href="#" role="button">
+                    Select Network
+                </a>
+            </div>
         </form>
     </div>
+
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+    </div>
+
     <div style = "background-color: #BBE1E5;" class="jumbotron">
         <h1 class="display-3">Connected Users:</h1>
         <p class="lead">Connect quickly, and securely to your public networks.</p>
