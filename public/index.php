@@ -34,8 +34,8 @@
     </div>
 
     <div class = "jumbotron">
-        <div style="border:solid black 1px;">
-            <img style = "padding: 20px; height:150px; width:150px; border-radius:50%; background-color: white;  margin-left: 20%;" src="assets/images/desktop.png"/>
+        <div>
+            <img style = "padding: 20px; height:150px; width:150px; border-radius:50%; background-color: white;  margin-left: 20%;" src="assets/images/desktop.jpg"/>
             <img style = "padding: 20px; height:150px; width:150px; border-radius:50%; background-color: white;  margin-left: 20%;" src="assets/images/router.png"/>
             <img style = "padding: 20px; height:150px; width:150px; border-radius:50%; background-color: white;  margin-left: 20%;" src="assets/images/server.png"/>
         </div>
