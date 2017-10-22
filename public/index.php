@@ -37,10 +37,6 @@
         <img style = "height:100px; width:100px;" src="assets/images/desktop.png"/>
     </div>
 
-    <div class="progress">
-        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-    </div>
-
     <div style = "background-color: #BBE1E5;" class="jumbotron">
         <h1 class="display-3">Connected Users:</h1>
         <p class="lead">Connect quickly, and securely to your public networks.</p>
