@@ -8,7 +8,7 @@ $(document).ready(function(){
       if(data.response){
         $($('.connected').get(0)).html('<span class="text-success">Connected!</span>');
       } else {
-        $($('.connected').get(0)).html('<span class="text-error">Not Connected</span>');
+        $($('.connected').get(0)).html('<span class="text-danger">Not Connected</span>');
       }
     },
     error: function(xhr, text, error){
