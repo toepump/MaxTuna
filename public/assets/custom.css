@@ -7,3 +7,7 @@ body {
 .top, .bottom {
   height: 50vh;
 }
+
+.top {
+  margin-bottom: 40px;
+}

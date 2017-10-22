@@ -2,7 +2,7 @@
   <body class="container-fluid make-full">
 
     <!-- Header row -->
-    <section class="row justify-content-center top">
+    <section class="row justify-content-center align-items-end top">
       <div class="col-6">
 
         <!-- Title info -->
