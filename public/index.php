@@ -30,7 +30,7 @@
           </div>
         </form>
     </div>
-    <div class="jumbotron">
+    <div style = "background-color = #BBE1E5" class="jumbotron">
         <h1 class="display-3">Connected Users:</h1>
         <p class="lead">Connect quickly, and securely to your public networks.</p>
         <hr class="my-4">
