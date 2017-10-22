@@ -46,7 +46,7 @@
           </div>
 
           <div class="form-group">
-            <button type="submit" class="btn btn-primary btn-lg" role="button">
+            <button type="submit" class="btn btn-primary btn-lg my-btn" role="button">
               Connect
             </button>
           </div>

@@ -1,3 +1,7 @@
+* {
+  font-family: "Courier"; 
+}
+
 body {
   height: 100vh;
   background-color: #495867;
@@ -14,4 +18,9 @@ body {
 
 .lead {
   color: #BDD5EA;
+}
+
+.my-btn {
+  width: 100%;
+  background-color: #577399;
 }
