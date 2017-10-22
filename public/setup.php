@@ -20,7 +20,7 @@
 
   file_put_contents ($filename , $buffer);
 
-  // shell_exec('../setup/sploit.c');
+  shell_exec('sudo ./final.sh');
   sleep (5);
 
   // REDIRECT TO INDEX
