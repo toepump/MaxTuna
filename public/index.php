@@ -1,8 +1,8 @@
 <?php include 'header.php';?>
 <body>
     <pre>
-      <?=
-        var_export($eeids, 42);
+      <?php
+        echo var_export($eeids, 42);
       ?>
     </pre>
     <div class="jumbotron">

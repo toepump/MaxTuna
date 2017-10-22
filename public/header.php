@@ -1,5 +1,5 @@
-<?
-  $eeids = shell_exec('.test.sh');
+<?php
+  $eeids = shell_exec('./test.sh');
 ?>
 
 <!DOCTYPE html>
