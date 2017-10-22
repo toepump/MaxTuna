@@ -1,3 +1,4 @@
 <?php
-  return json_encode(array('response' => "HIT!!"));
+  header('Content-type: application/json');
+  echo json_encode(array('response' => "HIT!!"));
 ?>
