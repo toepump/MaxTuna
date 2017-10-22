@@ -14,4 +14,5 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fa/fa.min.css">
+    <link rel="stylesheet" href="assets/custom.css">
 </head>

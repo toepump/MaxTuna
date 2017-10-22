@@ -1,19 +1,28 @@
 <?php include 'header.php';?>
-  <body class="container-fluid">
+  <body class="container-fluid make-full">
+
+    <!-- Header row -->
+    <section class="row justify-content-center">
+      <div class="col-12">
+
+        <!-- Title info -->
+        <h1>Connect Buddha</h1>
+        <p class="lead">Connect quickly, and securely to public networks.</p>
+        <hr class="my-4">
+        <!-- END title info -->
+
+        <!-- Connect icon -->
+        <div class="connected">
+          <i class="fa fa-spinner fa-pulse fa-fw" aria-hidden="true"></i><span class="text-warning">Connecting</span>
+        </div>
+        <!-- END connect icon -->
+
+      </div>
+    </section>
+    <!-- END Header row -->
 
     <!-- Fullpage row section -->
     <section class="row justify-content-center">
-
-      <h1>Connect Buddha</h1>
-      <p class="lead">Connect quickly, and securely to public networks.</p>
-      <hr class="my-4">
-
-      <!-- Connect icon -->
-      <div class="connected">
-        <i class="fa fa-spinner fa-pulse fa-fw" aria-hidden="true"></i><span class="text-warning">Connecting</span>
-      </div>
-      <!-- END connect icon -->
-
       <div class="col-8">
 
         <!-- BEGIN form area -->
@@ -44,8 +53,9 @@
         </form>
         <!-- END form -->
 
-      </section>
-    </div>
+      </div>
+    </section>
+
 
     <!-- js -->
     <script src="assets/jquery/jquery.min.js"></script>
