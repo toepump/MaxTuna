@@ -5,11 +5,14 @@ $(document).ready(function(){
     // data: data,
     // dataType: dataType
     success: function(data, text, xhr){
-      $($('.connected').get(0)).html('<span class="text-success">Connected!</span>');
+      if(text.response == "true"){
+        $($('.connected').get(0)).html('<span class="text-success">Connected!</span>');
+      } else {
+        $($('.connected').get(0)).html('<span class="text-error">Not Connected</span>');
+      }
     },
     error: function(xhr, text, error){
       console.log(text);
-      $($('.connected').get(0)).html('<span class="text-error">Not Connected</span>');
     }
   });
 });
