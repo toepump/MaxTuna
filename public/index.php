@@ -1,7 +1,7 @@
 <?php include 'header.php';?>
 <body>
     <div class="connected">
-      <span class="text-error">Not Connected</span>
+      <span class="text-danger">Not Connected</span>
     </div>
     <div class="jumbotron">
         <h1 class="display-3">MaxTuna</h1>
