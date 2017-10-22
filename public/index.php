@@ -24,7 +24,7 @@
             </div>
 
             <div class="form-group">
-              <input class="form-control" type="text" name="wifi-password" placeholder="Enter Wifi Password">
+              <input class="form-control" type="password" name="wifi-password" placeholder="Enter Wifi Password">
             </div>
 
             <div class="form-group">
