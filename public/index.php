@@ -10,9 +10,25 @@
         <p class="lead">Connect quickly, and securely to your public networks.</p>
         <hr class="my-4">
         <p>Current Network: </p>
-        <p class="lead">
-            <a class="btn btn-primary btn-lg" href="#" role="button">Switch Network</a>
-        </p>
+        <form>
+          <div class="form-group">
+            <select class="form-control">
+              <?php foreach ($ids as $id): ?>
+                <?php
+                  $id = ltrim(trim($id), "ESSID:\"");
+                  $id = rtrim($id, "\"");
+                ?>
+                <option value="<?php echo $id; ?>"><?php echo $id; ?></option>
+              <?php endforeach; ?>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-lg" href="#" role="button">
+              Select Network
+            </a>
+          </div>
+        </form>
     </div>
     <div class="jumbotron">
         <h1 class="display-3">Connected Users:</h1>
