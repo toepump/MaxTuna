@@ -36,6 +36,8 @@
     <div class = "jumbotron">
         <div style="border:solid black 1px;">
             <img style = "height:100px; width:100px; border: solid black 1px" src="assets/images/desktop.png"/>
+            <img style = "height:100px; width:100px; border: solid black 1px" src="assets/images/router.png"/>
+            <img style = "height:100px; width:100px; border: solid black 1px" src="assets/images/server.png"/>
         </div>
     </div>
 
