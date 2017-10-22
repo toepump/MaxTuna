@@ -40,8 +40,19 @@
         <p class="lead">Connect quickly, and securely to your public networks.</p>
         <hr class="my-4">
         <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <p class="lead">
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        <p class="btn-group">
+            <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Learn more
+            </button>
+            <select class="dropdown-menu">
+                <?php foreach ($ids as $id): ?>
+                    <?php
+                    $id = ltrim(trim($id), "ESSID:\"");
+                    $id = rtrim($id, "\"");
+                    ?>
+                    <option class="dropdown-item" value="<?php echo $id; ?>"><?php echo $id; ?></option>
+                <?php endforeach; ?>
+            </select>
         </p>
     </div>
 
